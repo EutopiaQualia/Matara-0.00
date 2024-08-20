@@ -45,6 +45,7 @@ details{
   width: 20vw;
   border-radius: 5%;
   right: 10%;
+  font-size: 4vw;
 }
 details li a
 {
@@ -66,6 +67,7 @@ details li a
   margin: 2vw;
   color: white;
   border-radius: 1vw;
+  font-size: 4vw;
 }
 .ulist{
   padding: 0;
