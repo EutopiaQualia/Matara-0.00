@@ -36,9 +36,10 @@
    gap: 2em;
    place-items: start center;
    grid-template-areas:
+    "header header"
     "person publications"
     "person patents";
-   grid-template-rows: 50vh 50vh;
+   grid-template-rows: 10vh 45vh 45vh;
    grid-template-columns: 1fr 2fr;
   }
  .person img{
@@ -66,6 +67,26 @@
  li{
   font-size: 1.5em
  }
+}
+.header{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  position: relative;
+  background-color: #54D1F3;
+  grid-area: header;
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  width: 40vw;
+}
+.nav a{
+  text-decoration: none;
+  font-family: arial;
+  color: white;
 }
 .person{
   display: flex;
