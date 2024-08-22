@@ -84,7 +84,6 @@ html, body {
   background-color: black;
 }
 .list{
-  flex-grow: 1;
   text-align: center;
   align-content: center;
   background-color: #54D1F3;
@@ -93,6 +92,7 @@ html, body {
 }
 .ulist{
   padding: 1vw;
+  justify-content: space-around;
   margin-top: 3vh;
   margin-bottom: 3vh;
   display: flex;
