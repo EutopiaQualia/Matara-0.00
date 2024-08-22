@@ -39,7 +39,7 @@ html, body {
 @media screen and (max-width: 47.999em)
 {
  .list{
-   font-size: 3vh;
+   font-size: 9vh;
  }
   .nav a{
     font-size: 3vh;
