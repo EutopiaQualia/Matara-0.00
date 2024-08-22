@@ -45,6 +45,7 @@ html, body {
   text-decoration: none;
   color: white;
   font-family: arial;
+  font-size: 1vw;
 }
 .list img{
   aspect-ratio: 1/1;
@@ -62,14 +63,14 @@ html, body {
   margin: 2vw;
   color: white;
   border-radius: 1vw;
-  font-size: 4vw;
+  font-size: 2em;
 }
 .ulist{
   padding: 0;
   margin-top: 5vw;
   display: flex;
   flex-direction: column;
-  height: 40vh;
+  height: 30vh;
   background-color: #1F638E;
   border-radius: 3vw;
   width: 90%;
@@ -86,14 +87,14 @@ h1, h2{
 }
 h1{
   font-family: Georgia;
-  font-size: 12vw;
+  font-size: 3em;
   background-image: url("backgroundHeader.png");
   background-blend-mode: soft-light;
 }
 h2{
-  font-size: 2vw;
-  padding-bottom: 3vw;
-  padding-top: 3vw;
+  font-size: 2em;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
 }
 img{
   height: 90%;
