@@ -47,7 +47,6 @@
      height: 100%;
      border-radius: 10px;
    }
- p{color: green;}
 }
 .person{
   display: flex;
@@ -58,6 +57,7 @@
 }
 
 p{
+  color: green;
   max-width: 60vw;
   font-family: Helvetica;
   font-size: 3vw;
