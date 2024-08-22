@@ -7,7 +7,7 @@ html, body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 10vw;
+  height: 10vh;
   position: relative;
   background-color: #54D1F3;
 }
@@ -17,7 +17,7 @@ html, body {
   background-blend-mode: soft-light;
   
   position: relative;
-  height: 90vw;
+  height: 90vh;
   font-family: helvetica;
 }
 .main a{
@@ -47,7 +47,7 @@ html, body {
   font-family: arial;
 }
 .list img{
-  height: 3vw;
+  aspect-ratio: 1/1;
   width: 3vw;
   float: left;
   margin-right: 3vw;
@@ -69,7 +69,7 @@ html, body {
   margin-top: 5vw;
   display: flex;
   flex-direction: column;
-  height: 40vw;
+  height: 40vh;
   background-color: #1F638E;
   border-radius: 3vw;
   width: 90%;
