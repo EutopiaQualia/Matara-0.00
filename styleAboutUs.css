@@ -24,13 +24,14 @@
    }
   p{
      max-width: 70%;
-     font-size: 3em;
+     font-size: 1em;
   }
 }
 @media screen and (min-width:48em)
 {
   .container{
    display: grid;
+   place-items: center;
    width: 95%;
    gap: 2em;
    grid-template-areas:
