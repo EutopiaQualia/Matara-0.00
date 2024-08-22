@@ -45,7 +45,7 @@ html, body {
   text-decoration: none;
   color: white;
   font-family: arial;
-  font-size: 1vw;
+  font-size: 3vw;
 }
 .list img{
   aspect-ratio: 1/1;
@@ -62,7 +62,7 @@ html, body {
   background-color: #54D1F3;
   color: white;
   border-radius: 1vw;
-  font-size: 2em;
+  font-size: 2vw;
 }
 .ulist{
   padding: 0;
