@@ -45,7 +45,7 @@ html, body {
   text-decoration: none;
   color: white;
   font-family: arial;
-  font-size: 3vw;
+  font-size: 1vw;
 }
 .list img{
   aspect-ratio: 1/1;
@@ -73,7 +73,7 @@ html, body {
   height: 30vh;
   gap: 1vh;
   background-color: #1F638E;
-  border-radius: 3vw;
+  border-radius: 1vw;
   width: 90%;
   position: absolute;
   left: 5%;
@@ -83,7 +83,8 @@ h1, h2{
   text-align: center;
   background-color: #1F638E;
   color: white;
-  padding: 0;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
   margin: 0;
 }
 h1{
@@ -94,8 +95,6 @@ h1{
 }
 h2{
   font-size: 2em;
-  padding-bottom: 3vh;
-  padding-top: 3vh;
 }
 img{
   height: 90%;
