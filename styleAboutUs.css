@@ -34,6 +34,7 @@
    place-items: center;
    width: 95%;
    gap: 2em;
+   place-items: start center;
    grid-template-areas:
     "person publications"
     "person patents";
