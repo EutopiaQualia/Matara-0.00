@@ -49,13 +49,13 @@
    }
    .imageBorder{
      border: solid 1vw;
-     aspect-ratio: 1 / 1;
+     aspect-ratio: 100 / 99;
      width: 100%;
      border-radius: 10px;
    }
  p{
   width: 70%;
-  font-size: 1em;
+  font-size: 2em;
 }
 }
 .person{
