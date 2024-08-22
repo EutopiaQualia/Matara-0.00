@@ -69,12 +69,10 @@
  }
 }
 .header{
-  background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 10vh;
-  position: relative;
   background-color: #54D1F3;
   grid-area: header;
 }
