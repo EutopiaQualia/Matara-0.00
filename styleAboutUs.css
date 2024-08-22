@@ -76,6 +76,13 @@
   background-color: #54D1F3;
   grid-area: header;
 }
+.header img {
+  display: block;
+  max-width: 40%;
+  max-height: 90%;
+  width: auto;
+  height: auto;
+}
 .nav{
   display: flex;
   justify-content: space-around;
