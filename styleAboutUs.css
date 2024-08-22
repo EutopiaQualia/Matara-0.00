@@ -22,12 +22,17 @@
      font-weight: normal;
      color: white;
    }
+  p{
+     max-width: 70%;
+     font-size: 3em;
+  }
 }
 @media screen and (min-width:48em)
 {
   .container{
    display: grid;
-   width: 100%;
+   width: 95%;
+   gap: 2em;
    grid-template-areas:
     "person publications"
     "person patents";
@@ -47,6 +52,10 @@
      width: 100%;
      border-radius: 10px;
    }
+ p{
+  width: 70%;
+  font-size: 3em;
+}
 }
 .person{
   display: flex;
@@ -65,9 +74,7 @@
 
 p{
   color: purple;
-  max-width: 60vw;
   font-family: Helvetica;
-  font-size: 3vw;
 }
 h2{
   font-style: bold;
