@@ -35,6 +35,18 @@
    grid-template-rows: 1fr 1fr;
    grid-template-columns: 1fr 2fr;
   }
+ .person img{
+     aspect-ratio: 1/1;
+     z-index: -1;
+     width: 100%;
+     border-color: #DDDDDD;
+     border-radius: 5px;
+   }
+   .imageBorder{
+     border: solid 1vw;
+     height: 100%;
+     border-radius: 10px;
+   }
  p{color: green;}
 }
 .person{
