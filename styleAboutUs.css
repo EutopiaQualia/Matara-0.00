@@ -54,6 +54,13 @@
   flex-direction: column;
   margin: auto;
   text-align: center;
+  grid-area: person;
+}
+.patents{
+ grid-area: patents;
+}
+.publications{
+ grid-area: publications;
 }
 
 p{
