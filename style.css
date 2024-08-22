@@ -11,6 +11,16 @@ html, body {
   position: relative;
   background-color: #54D1F3;
 }
+.nav{
+  display: flex;
+  justify-content: space-around;
+  width: 40vw;
+}
+.nav a{
+  text-decoration: none;
+  font-family: arial;
+  color: white;
+}
 .main{
   background-color: lightGreen;
   background-image: url("background.jpeg");
@@ -66,16 +76,6 @@ html, body {
   .main a{
     font-size: 3vw;
   }
-}
-.nav{
-  display: flex;
-  justify-content: space-around;
-  width: 40vw;
-}
-.nav a{
-  text-decoration: none;
-  font-family: arial;
-  color: white;
 }
 .list img{
   aspect-ratio: 1/1;
