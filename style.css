@@ -24,7 +24,6 @@ html, body {
   background-color: #04AA6D;
   color: white;
   padding: 3vw;
-  font-size: 3vw;
   border: none;
   position: absolute;
   width: 33%;
@@ -47,6 +46,9 @@ html, body {
   .main{
     height: 80vh;
   }
+  .main a{
+    font-size: 5vw;
+  }
 }
 @media screen and (min-width: 48em)
 {
@@ -58,6 +60,9 @@ html, body {
   }
   .main{
     height: 90vh;
+  }
+  .main a{
+    font-size: 3vw;
   }
 }
 .nav{
