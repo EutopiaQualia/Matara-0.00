@@ -60,14 +60,14 @@ html, body {
   text-align: center;
   align-content: center;
   background-color: #54D1F3;
-  margin: 2vw;
   color: white;
   border-radius: 1vw;
   font-size: 2em;
 }
 .ulist{
   padding: 0;
-  margin-top: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
   display: flex;
   flex-direction: column;
   height: 30vh;
