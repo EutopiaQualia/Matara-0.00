@@ -1,0 +1,50 @@
+ @media screen and (max-width: 47.9999em) {
+   .person img{
+     aspect-ratio: 1/1;
+     z-index: -1;
+     width: 80vw;
+     border-color: #DDDDDD;
+     border-radius: 5px;
+   }
+   .imageBorder{
+     border: solid 1vw;
+     height: 80vw;
+     border-radius: 10px;
+   }
+
+   h1{
+     position: absolute;
+     left: 50%;
+     transform: translate(-50%);
+     width: 80%;
+     top: 42vh;
+     font-family: "Times New Roman";
+     font-weight: normal;
+     color: white;
+   }
+}
+@media screen and (min-width:48em)
+{
+  p{color: green;}
+}
+.person{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+
+p{
+  max-width: 60vw;
+  font-family: Helvetica;
+  font-size: 3vw;
+}
+h2{
+  font-style: bold;
+  font-family: Georgia;
+}
+body{
+  background-color: #EEEEEE;
+  color: darkBrown;
+}
