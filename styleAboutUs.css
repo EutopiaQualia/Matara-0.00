@@ -25,7 +25,12 @@
 }
 @media screen and (min-width:48em)
 {
-  p{color: green;}
+  .container{
+   display: grid;
+   grid-template-areas:
+    "person publications"
+    "person patents";
+  }
 }
 .person{
   display: flex;
