@@ -37,7 +37,7 @@
    grid-template-areas:
     "person publications"
     "person patents";
-   grid-template-rows: 1fr 1fr;
+   grid-template-rows: 50vh 50vh;
    grid-template-columns: 1fr 2fr;
   }
  .person img{
@@ -53,9 +53,18 @@
      border-radius: 10px;
    }
  p{
-  width: 70%;
+  max-height: 20%;
   font-size: 2em;
 }
+ h1{
+  font-size: 3em;
+ }
+ h2{
+  font-size: 2em;
+ }
+ li{
+  font-size: 1.5em
+ }
 }
 .person{
   display: flex;
