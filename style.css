@@ -39,6 +39,8 @@ html, body {
 {
  .list{
    font-size: 3vh;
+   padding-top: 2vh;
+   padding-bottom: 2vh;
  }
   .nav a{
     font-size: 2vh;
