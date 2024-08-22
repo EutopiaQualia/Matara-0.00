@@ -24,7 +24,7 @@ html, body {
   background-color: #04AA6D;
   color: white;
   padding: 3vw;
-  font-size: 5vw;
+  font-size: 3vw;
   border: none;
   position: absolute;
   width: 33%;
@@ -65,12 +65,13 @@ html, body {
   font-size: 2vw;
 }
 .ulist{
-  padding: 0;
+  padding: 1vw;
   margin-top: 3vh;
   margin-bottom: 3vh;
   display: flex;
   flex-direction: column;
   height: 30vh;
+  gap: 1vh;
   background-color: #1F638E;
   border-radius: 3vw;
   width: 90%;
