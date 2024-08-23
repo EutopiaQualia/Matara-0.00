@@ -125,6 +125,6 @@ h1{
 h2{
   font-size: 2em;
 }
-img{
+.header a img{
   height: 90%;
 }
