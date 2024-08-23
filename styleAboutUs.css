@@ -76,7 +76,7 @@
   height: 10vh;
   background-color: #54D1F3;
   grid-area: header;
-  width: 100vw;
+  width: 95vw;
 }
 .header img {
   display: block;
