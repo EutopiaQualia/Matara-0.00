@@ -11,6 +11,11 @@ html, body {
   position: relative;
   background-color: #54D1F3;
 }
+.header .logo a{
+  height: 90%;
+  display: flex;
+  align-items: center;
+}
 .nav{
   display: flex;
   justify-content: space-around;
