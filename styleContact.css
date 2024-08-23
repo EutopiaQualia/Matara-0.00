@@ -1,1 +1,16 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color: lightGrey;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container input, .container textarea{
+  margin: 5vh;
+  background-color: purple;
+}
+
 
