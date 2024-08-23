@@ -9,7 +9,8 @@
    }
    .imageBorder{
      border: solid 1vw;
-     height: 80vw;
+     width: 80vw;
+     aspect-ratio: 1/1;
      border-radius: 10px;
    }
 
@@ -46,12 +47,13 @@
  .person img{
      aspect-ratio: 1/1;
      z-index: -1;
-     width: 25vw;
+     width: 100%;
      border-radius: 5px;
    }
    .imageBorder{
      border: solid 1vw;
      aspect-ratio: 1/1;
+     width: 100%;
      border-radius: 10px;
    }
  p{
