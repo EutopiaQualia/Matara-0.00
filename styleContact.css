@@ -5,10 +5,6 @@ html, body{
 }
 .container form{
   dispLay: grid;
-  width: 80%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
   grid-template-areas: 
   "fnameLabel fname"
   "lnameLabel lname"
@@ -18,7 +14,7 @@ html, body{
   "messageLabel message"
   "submit submit"
     ;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 4fr;
   grid-template-rows: auto;
 
 input, textarea{
