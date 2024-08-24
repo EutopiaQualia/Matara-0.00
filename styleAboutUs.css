@@ -1,4 +1,11 @@
- @media screen and (max-width: 47.9999em) {
+html, body{
+ width: 100%;
+ height: 100%;
+}
+
+
+
+@media screen and (max-width: 47.9999em) {
    .person .imageBorder img{
      z-index: -1;
      width: 100%;
