@@ -24,7 +24,7 @@ input, textarea{
   float: left;
 }
 label{
-    place-self: end center;
+    place-self: center end;
 }
 label[for="fname"]
   {
