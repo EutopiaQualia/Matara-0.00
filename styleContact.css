@@ -24,11 +24,7 @@ input, textarea{
   float: left;
 }
 label{
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 50px;
-    text-align: right;
+    place-self: end center;
 }
 label[for="fname"]
   {
