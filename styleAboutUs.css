@@ -88,7 +88,7 @@ html, body{
   height: 10vh;
   background-color: #54D1F3;
   grid-area: header;
-  width: 95vw;
+  width: 100%;
 }
 .header img {
   display: block;
