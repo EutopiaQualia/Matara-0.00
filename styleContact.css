@@ -22,6 +22,9 @@ html, body{
   display: flex;
   align-items: center;
 }
+.header .logo img{
+  height: 90%;
+}
 .nav{
   display: flex;
   justify-content: space-around;
