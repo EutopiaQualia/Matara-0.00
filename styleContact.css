@@ -3,22 +3,18 @@ html, body{
   width: 100%;
   background-color: lightGrey;
 }
-.container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.container input, .container textarea{
+
+input, textarea{
   margin: 5vh;
   background-color: purple;
   display: inline-block;
   float: left;
 }
-.container label{
+label{
     display: inline-block;
     float: left;
     clear: left;
-    width: 250px;
+    width: 50px;
     text-align: right;
 }
 
