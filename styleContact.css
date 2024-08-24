@@ -12,6 +12,7 @@ html, body{
   "phoneLabel phone"
   "companyLabel company"
   "messageLabel message"
+  "submit submit"
     ;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
@@ -77,5 +78,8 @@ input[name="message"]
   {
     grid-area: message;
   }
+.submit{
+  grid-area: submit;
+}
   
 
