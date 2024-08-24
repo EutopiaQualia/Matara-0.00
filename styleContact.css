@@ -9,6 +9,9 @@ html, body{
   "fnameLabel fname"
   "lnameLabel lname"
   "emailLabel email"
+  "phoneLabel phone"
+  "companyLabel company"
+  "messageLabel message"
     ;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
@@ -50,13 +53,29 @@ input[name="email"]
   {
     grid-area: email;
   }
-  label[for="fname"]
+  label[for="phone"]
   {
-    grid-area: fnameLabel;
+    grid-area: phoneLabel;
   }
-input[name="fname"]
+input[name="phone"]
   {
-    grid-area: fname;
+    grid-area: phone;
+  }
+  label[for="company"]
+  {
+    grid-area: companyLabel;
+  }
+input[name="company"]
+  {
+    grid-area: company;
+  }
+  label[for="message"]
+  {
+    grid-area: messageLabel;
+  }
+input[name="message"]
+  {
+    grid-area: message;
   }
   
 
