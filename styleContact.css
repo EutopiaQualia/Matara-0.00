@@ -34,4 +34,29 @@ input[name="fname"]
   {
     grid-area: fname;
   }
+  label[for="lname"]
+  {
+    grid-area: lnameLabel;
+  }
+input[name="lname"]
+  {
+    grid-area: lname;
+  }
+  label[for="email"]
+  {
+    grid-area: emailLabel;
+  }
+input[name="email"]
+  {
+    grid-area: email;
+  }
+  label[for="fname"]
+  {
+    grid-area: fnameLabel;
+  }
+input[name="fname"]
+  {
+    grid-area: fname;
+  }
+  
 
