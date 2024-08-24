@@ -32,6 +32,9 @@ html, body{
   font-family: arial;
   color: white;
 }
+p{
+  text-align: center;
+}
 .container form{
   dispLay: grid;
   grid-template-areas: 
@@ -110,5 +113,7 @@ input[name="message"]
 .submit{
   grid-area: submit;
 }
-  
+  img{
+    height: 90%;
+  }
 
