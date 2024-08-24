@@ -14,7 +14,11 @@ html, body{
   "messageLabel message"
   "submit submit"
     ;
-  grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
   grid-template-rows: auto;
 
 input, textarea{
